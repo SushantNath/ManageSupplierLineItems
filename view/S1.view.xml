@@ -165,6 +165,10 @@
 								groupId="_BASIC"
 								preventInitialDataFetchInValueHelpDialog="false" />
 								
+								<!--	<smartfilterbar:ControlConfiguration
+								id="fin.ap.lineitems.display1.ValueHelpCompany1" key="CompanyCode"
+								 groupId="_BASIC" /> -->
+								
 						</smartfilterbar:controlConfiguration>
 							<!--Extension logic goes here for WRICEF 10492-->
 							
@@ -703,7 +707,7 @@
 							width="10em" leadingProperty="ClearingDate" sortProperty="AccountingClerk"
 							filterProperty="AccountingClerk">
 							<Label
-								text="Accounting Clerk"></Label>
+								text="{parts: [{path:'/#Item/AccountingClerk/@sap:heading'}, {path:'/#Item/AccountingClerk/@sap:label'}], formatter:'sap.fin.arp.lib.lineitems.util.Formatter.formatTableHeading'}"></Label>
 							<table:template>
 								<Text text="{AccountingClerk}" wrapping="false"></Text>
 							</table:template>
@@ -713,6 +717,8 @@
 									
 							</table:customData>
 						</table:AnalyticalColumn>
+						
+						
 
 						<!-- With this extension point you're able to extend at the end of 
 							the line items table, i.e. insert columns -->

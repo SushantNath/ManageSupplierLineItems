@@ -1,120 +1,75 @@
 {
     "resources": [
         {
-            "name": "resources.json",
+            "name": "Component-preload.js",
             "merged": true
         },
         {
-            "name": ".project.json"
-        },
-        {
-            "name": "Component-h2-preload-dbg.js"
-        },
-        {
-            "name": "App.view.xml"
-        },
-        {
-            "name": ".Ui5RepositoryIgnore"
-        },
-        {
-            "name": "copilot/intent.xml"
-        },
-        {
-            "name": "neo-app.json"
-        },
-        {
-            "name": "Component-dbg.js"
+            "name": "resources.json",
+            "merged": true
         },
         {
             "name": "App-dbg.controller.js"
         },
         {
-            "name": "Component.js"
+            "name": "Component-dbg.js"
+        },
+        {
+            "name": "model/metadata.xml"
+        },
+        {
+            "name": "img/home/72_iPad_Desktop_Launch.png"
+        },
+        {
+            "name": "img/home/114_iPhone_Retina_Web_Clip.png"
+        },
+        {
+            "name": "img/home/favicon.ico"
+        },
+        {
+            "name": "img/home/144_iPad_Retina_Web_Clip.png"
+        },
+        {
+            "name": "img/home/57_iPhone_Desktop_Launch.png"
+        },
+        {
+            "name": "copilot/intent.xml"
+        },
+        {
+            "name": ".project.json"
+        },
+        {
+            "name": "neo-app.json"
+        },
+        {
+            "name": ".Ui5RepositoryIgnore"
+        },
+        {
+            "name": "App.view.xml"
         },
         {
             "name": ".Ui5RepositoryTextFiles"
         },
         {
+            "name": "Component-h2-preload-dbg.js"
+        },
+        {
             "name": ".Ui5RepositoryBinaryFiles"
         },
         {
-            "name": ".user.project.json"
+            "name": "Component.js"
         },
         {
             "name": "view/S1.view.xml"
         },
         {
-            "name": "view/S1.controller.js"
-        },
-        {
             "name": "view/S1-dbg.controller.js"
         },
         {
-            "name": "i18n/i18n_en_US_sappsd.properties",
-            "raw": "i18n/i18n.properties"
-        },
-        {
-            "name": "i18n/i18n_bg.properties",
-            "raw": "i18n/i18n.properties"
-        },
-        {
-            "name": "i18n/i18n_zh_CN.properties",
-            "raw": "i18n/i18n.properties"
-        },
-        {
-            "name": "i18n/i18n_sv.properties",
-            "raw": "i18n/i18n.properties"
-        },
-        {
-            "name": "i18n/i18n_zh_TW.properties",
-            "raw": "i18n/i18n.properties"
-        },
-        {
-            "name": "i18n/i18n_hu.properties",
-            "raw": "i18n/i18n.properties"
-        },
-        {
-            "name": "i18n/i18n_ms.properties",
-            "raw": "i18n/i18n.properties"
-        },
-        {
-            "name": "i18n/i18n_ar.properties",
-            "raw": "i18n/i18n.properties"
-        },
-        {
-            "name": "i18n/copilot/i18n.properties",
-            "raw": "i18n/i18n.properties"
+            "name": "view/S1.controller.js"
         },
         {
             "name": "i18n/i18n_cs.properties",
-            "raw": "i18n/i18n.properties"
-        },
-        {
-            "name": "i18n/i18n_de.properties",
-            "raw": "i18n/i18n.properties"
-        },
-        {
-            "name": "i18n/i18n_el.properties",
-            "raw": "i18n/i18n.properties"
-        },
-        {
-            "name": "i18n/i18n_ja.properties",
-            "raw": "i18n/i18n.properties"
-        },
-        {
-            "name": "i18n/i18n_kk.properties",
-            "raw": "i18n/i18n.properties"
-        },
-        {
-            "name": "i18n/i18n_fr.properties",
-            "raw": "i18n/i18n.properties"
-        },
-        {
-            "name": "i18n/i18n_th.properties",
-            "raw": "i18n/i18n.properties"
-        },
-        {
-            "name": "i18n/i18n_hr.properties",
             "raw": "i18n/i18n.properties"
         },
         {
@@ -122,23 +77,43 @@
             "raw": "i18n/i18n.properties"
         },
         {
+            "name": "i18n/i18n_en_US_saptrc.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "i18n/i18n_ms.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "i18n/i18n_kk.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "i18n/i18n_lv.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "i18n/copilot/i18n.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "i18n/i18n_de.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "i18n/i18n_ar.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "i18n/i18n_th.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "i18n/i18n_fr.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
             "name": "i18n/i18n_sh.properties",
-            "raw": "i18n/i18n.properties"
-        },
-        {
-            "name": "i18n/i18n_sl.properties",
-            "raw": "i18n/i18n.properties"
-        },
-        {
-            "name": "i18n/i18n_en.properties",
-            "raw": "i18n/i18n.properties"
-        },
-        {
-            "name": "i18n/i18n_iw.properties",
-            "raw": "i18n/i18n.properties"
-        },
-        {
-            "name": "i18n/i18n_lt.properties",
             "raw": "i18n/i18n.properties"
         },
         {
@@ -146,23 +121,23 @@
             "raw": "i18n/i18n.properties"
         },
         {
-            "name": "i18n/i18n_et.properties",
+            "name": "i18n/i18n_hr.properties",
             "raw": "i18n/i18n.properties"
         },
         {
-            "name": "i18n/i18n_nl.properties",
+            "name": "i18n/i18n_sv.properties",
             "raw": "i18n/i18n.properties"
         },
         {
-            "name": "i18n/i18n_hi.properties",
+            "name": "i18n/i18n_zh_CN.properties",
             "raw": "i18n/i18n.properties"
         },
         {
-            "name": "i18n/i18n_tr.properties",
+            "name": "i18n/i18n_ru.properties",
             "raw": "i18n/i18n.properties"
         },
         {
-            "name": "i18n/i18n_vi.properties",
+            "name": "i18n/i18n_el.properties",
             "raw": "i18n/i18n.properties"
         },
         {
@@ -174,23 +149,11 @@
             "raw": "i18n/i18n.properties"
         },
         {
-            "name": "i18n/i18n_it.properties",
+            "name": "i18n/i18n_ja.properties",
             "raw": "i18n/i18n.properties"
         },
         {
-            "name": "i18n/i18n.properties",
-            "raw": "i18n/i18n.properties"
-        },
-        {
-            "name": "i18n/i18n_ko.properties",
-            "raw": "i18n/i18n.properties"
-        },
-        {
-            "name": "i18n/i18n_ru.properties",
-            "raw": "i18n/i18n.properties"
-        },
-        {
-            "name": "i18n/i18n_sk.properties",
+            "name": "i18n/i18n_hi.properties",
             "raw": "i18n/i18n.properties"
         },
         {
@@ -198,7 +161,11 @@
             "raw": "i18n/i18n.properties"
         },
         {
-            "name": "i18n/i18n_lv.properties",
+            "name": "i18n/i18n_et.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "i18n/i18n.properties",
             "raw": "i18n/i18n.properties"
         },
         {
@@ -206,15 +173,51 @@
             "raw": "i18n/i18n.properties"
         },
         {
+            "name": "i18n/i18n_iw.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "i18n/i18n_ko.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "i18n/i18n_zh_TW.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "i18n/i18n_en.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "i18n/i18n_lt.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "i18n/i18n_bg.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "i18n/i18n_vi.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "i18n/i18n_it.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "i18n/i18n_sl.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "i18n/i18n_nl.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "i18n/i18n_hu.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
             "name": "i18n/i18n_uk.properties",
-            "raw": "i18n/i18n.properties"
-        },
-        {
-            "name": "i18n/i18n_pl.properties",
-            "raw": "i18n/i18n.properties"
-        },
-        {
-            "name": "i18n/i18n_en_US_saptrc.properties",
             "raw": "i18n/i18n.properties"
         },
         {
@@ -222,38 +225,35 @@
             "raw": "i18n/i18n.properties"
         },
         {
-            "name": "version.json"
+            "name": "i18n/i18n_tr.properties",
+            "raw": "i18n/i18n.properties"
         },
         {
-            "name": "manifest.json"
+            "name": "i18n/i18n_sk.properties",
+            "raw": "i18n/i18n.properties"
         },
         {
-            "name": "App.controller.js"
+            "name": "i18n/i18n_en_US_sappsd.properties",
+            "raw": "i18n/i18n.properties"
         },
         {
-            "name": "Component-preload.js",
-            "merged": true
+            "name": "i18n/i18n_pl.properties",
+            "raw": "i18n/i18n.properties"
         },
         {
             "name": "Component-h2-preload.js"
         },
         {
-            "name": "img/home/114_iPhone_Retina_Web_Clip.png"
+            "name": "manifest.json"
         },
         {
-            "name": "img/home/72_iPad_Desktop_Launch.png"
+            "name": "README.md"
         },
         {
-            "name": "img/home/144_iPad_Retina_Web_Clip.png"
+            "name": "App.controller.js"
         },
         {
-            "name": "img/home/57_iPhone_Desktop_Launch.png"
-        },
-        {
-            "name": "img/home/favicon.ico"
-        },
-        {
-            "name": "model/metadata.xml"
+            "name": "version.json"
         }
     ]
 }
