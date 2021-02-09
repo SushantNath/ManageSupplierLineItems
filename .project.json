@@ -1,0 +1,22 @@
+{
+  "mockpreview": {
+    "mockUri": "",
+    "metadataFilePath": "",
+    "loadJSONFiles": false,
+    "loadCustomRequests": false,
+    "mockRequestsFilePath": ""
+  },
+  "deploy": {
+    "destination": "DE4",
+    "name": "Z_MANSUPLINE"
+  },
+  "projectType": [
+    "com.watt.common.builder.sapui5clientbuild",
+    "sap.watt.uitools.ide.fiori"
+  ],
+  "build": {
+    "buildRequired": true,
+    "targetFolder": "dist",
+    "lastBuildDateTime": "Tue, 09 Feb 2021 07:56:12 GMT"
+  }
+}
