@@ -7,6 +7,7 @@ sap.ui.define(["sap/ui/core/UIComponent", "sap/ui/Device", "sap/fin/arp/lib/line
 		metadata: {
 			manifest: "json"
 		},
+		
 		init: function() {
 			U.prototype.init.apply(this, arguments);
 			this.oErrorHandler = new E(this);
