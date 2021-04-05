@@ -54,6 +54,9 @@
             "name": "Component-h2-preload-dbg.js"
         },
         {
+            "name": ".user.project.json"
+        },
+        {
             "name": ".Ui5RepositoryBinaryFiles"
         },
         {
