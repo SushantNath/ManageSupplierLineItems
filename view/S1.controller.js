@@ -11,7 +11,7 @@ sap.ui.define(["sap/fin/arp/lib/lineitems/controller/AbstractController", "sap/f
 			this.sLocalContainerKey = "fin.ap.lineitems";
 			this.sPrefix = "fin.ap.lineitems.display1";
 			this.sIconPath = "sap-icon://Fiori5/F0712";
-			this.sSchemaNamespace = "ZRTF_OD_VENDOR_LINE_ITEM_SRV";
+			this.sSchemaNamespace = "ZRTF_OD_COPY_VLI_SRV";
 			this.sOwnSemanticObject = "Supplier";
 			this.sCustomerVendorItemTypeKey = "C";
 			this.initDeferred = jQuery.Deferred();

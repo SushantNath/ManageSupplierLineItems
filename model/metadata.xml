@@ -12,7 +12,7 @@
 		<edmx:Include Alias="UI" Namespace="com.sap.vocabularies.UI.v1"/>
 	</edmx:Reference>
 	<edmx:DataServices m:DataServiceVersion="2.0">
-		<Schema Namespace="ZRTF_OD_VENDOR_LINE_ITEM_SRV" sap:schema-version="3" xml:lang="en" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+		<Schema Namespace="ZRTF_OD_COPY_VLI_SRV" sap:schema-version="3" xml:lang="en" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
 			<EntityType Name="Supplier" sap:content-version="1">
 				<Key>
 					<PropertyRef Name="SupplierId"/>
@@ -303,22 +303,22 @@
 				<Property MaxLength="1" Name="Code" Nullable="false" Type="Edm.String" sap:creatable="false" sap:filterable="false" sap:label="Payment block" sap:sortable="false" sap:updatable="false"/>
 				<Property MaxLength="20" Name="Name" Nullable="false" Type="Edm.String" sap:creatable="false" sap:filterable="false" sap:label="Description" sap:sortable="false" sap:updatable="false"/>
 			</EntityType>
-			<EntityContainer Name="ZRTF_OD_VENDOR_LINE_ITEM_SRV_Entities" m:IsDefaultEntityContainer="true" sap:supported-formats="atom json xlsx">
-				<EntitySet EntityType="ZRTF_OD_VENDOR_LINE_ITEM_SRV.Supplier" Name="Suppliers" sap:content-version="1" sap:creatable="false" sap:deletable="false" sap:pageable="false" sap:updatable="false"/>
-				<EntitySet EntityType="ZRTF_OD_VENDOR_LINE_ITEM_SRV.UpdatableItem" Name="UpdatableItems" sap:addressable="false" sap:content-version="1" sap:creatable="false" sap:deletable="false" sap:pageable="false"/>
-				<EntitySet EntityType="ZRTF_OD_VENDOR_LINE_ITEM_SRV.Item" Name="Items" sap:content-version="1" sap:creatable="false" sap:deletable="false" sap:label="Supplier Line Items" sap:pageable="false" sap:updatable="false"/>
-				<EntitySet EntityType="ZRTF_OD_VENDOR_LINE_ITEM_SRV.ReturnValue" Name="ReturnValueCollection" sap:content-version="1"/>
-				<EntitySet EntityType="ZRTF_OD_VENDOR_LINE_ITEM_SRV.DunningArea" Name="DunningAreas" sap:content-version="1" sap:creatable="false" sap:deletable="false" sap:pageable="false" sap:updatable="false"/>
-				<EntitySet EntityType="ZRTF_OD_VENDOR_LINE_ITEM_SRV.DunningBlockingReasonCode" Name="DunningBlockingReasonCodes" sap:content-version="1" sap:creatable="false" sap:deletable="false" sap:pageable="false" sap:updatable="false"/>
-				<EntitySet EntityType="ZRTF_OD_VENDOR_LINE_ITEM_SRV.PaymentMethod" Name="PaymentMethods" sap:content-version="1" sap:creatable="false" sap:deletable="false" sap:pageable="false" sap:updatable="false"/>
-				<EntitySet EntityType="ZRTF_OD_VENDOR_LINE_ITEM_SRV.DunningKey" Name="DunningKeys" sap:content-version="1" sap:creatable="false" sap:deletable="false" sap:pageable="false" sap:updatable="false"/>
-				<EntitySet EntityType="ZRTF_OD_VENDOR_LINE_ITEM_SRV.Company" Name="Companies" sap:content-version="1" sap:creatable="false" sap:deletable="false" sap:pageable="false" sap:updatable="false"/>
-				<EntitySet EntityType="ZRTF_OD_VENDOR_LINE_ITEM_SRV.PaymentBlockingReasonCode" Name="PaymentBlockingReasonCodes" sap:content-version="1" sap:creatable="false" sap:deletable="false" sap:pageable="false" sap:updatable="false"/>
-				<FunctionImport EntitySet="ReturnValueCollection" Name="CheckPaymentItems" ReturnType="ZRTF_OD_VENDOR_LINE_ITEM_SRV.ReturnValue" m:HttpMethod="GET" sap:action-for="ZRTF_OD_VENDOR_LINE_ITEM_SRV.ReturnValue">
+			<EntityContainer Name="ZRTF_OD_COPY_VLI_SRV_Entities" m:IsDefaultEntityContainer="true" sap:supported-formats="atom json xlsx">
+				<EntitySet EntityType="ZRTF_OD_COPY_VLI_SRV.Supplier" Name="Suppliers" sap:content-version="1" sap:creatable="false" sap:deletable="false" sap:pageable="false" sap:updatable="false"/>
+				<EntitySet EntityType="ZRTF_OD_COPY_VLI_SRV.UpdatableItem" Name="UpdatableItems" sap:addressable="false" sap:content-version="1" sap:creatable="false" sap:deletable="false" sap:pageable="false"/>
+				<EntitySet EntityType="ZRTF_OD_COPY_VLI_SRV.Item" Name="Items" sap:content-version="1" sap:creatable="false" sap:deletable="false" sap:label="Supplier Line Items" sap:pageable="false" sap:updatable="false"/>
+				<EntitySet EntityType="ZRTF_OD_COPY_VLI_SRV.ReturnValue" Name="ReturnValueCollection" sap:content-version="1"/>
+				<EntitySet EntityType="ZRTF_OD_COPY_VLI_SRV.DunningArea" Name="DunningAreas" sap:content-version="1" sap:creatable="false" sap:deletable="false" sap:pageable="false" sap:updatable="false"/>
+				<EntitySet EntityType="ZRTF_OD_COPY_VLI_SRV.DunningBlockingReasonCode" Name="DunningBlockingReasonCodes" sap:content-version="1" sap:creatable="false" sap:deletable="false" sap:pageable="false" sap:updatable="false"/>
+				<EntitySet EntityType="ZRTF_OD_COPY_VLI_SRV.PaymentMethod" Name="PaymentMethods" sap:content-version="1" sap:creatable="false" sap:deletable="false" sap:pageable="false" sap:updatable="false"/>
+				<EntitySet EntityType="ZRTF_OD_COPY_VLI_SRV.DunningKey" Name="DunningKeys" sap:content-version="1" sap:creatable="false" sap:deletable="false" sap:pageable="false" sap:updatable="false"/>
+				<EntitySet EntityType="ZRTF_OD_COPY_VLI_SRV.Company" Name="Companies" sap:content-version="1" sap:creatable="false" sap:deletable="false" sap:pageable="false" sap:updatable="false"/>
+				<EntitySet EntityType="ZRTF_OD_COPY_VLI_SRV.PaymentBlockingReasonCode" Name="PaymentBlockingReasonCodes" sap:content-version="1" sap:creatable="false" sap:deletable="false" sap:pageable="false" sap:updatable="false"/>
+				<FunctionImport EntitySet="ReturnValueCollection" Name="CheckPaymentItems" ReturnType="ZRTF_OD_COPY_VLI_SRV.ReturnValue" m:HttpMethod="GET" sap:action-for="ZRTF_OD_COPY_VLI_SRV.ReturnValue">
 					<Parameter Mode="In" Name="keys" Type="Edm.String"/>
 				</FunctionImport>
 			</EntityContainer>
-			<Annotations Target="ZRTF_OD_VENDOR_LINE_ITEM_SRV.Item" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+			<Annotations Target="ZRTF_OD_COPY_VLI_SRV.Item" xmlns="http://docs.oasis-open.org/odata/ns/edm">
 				<Annotation Qualifier="fin.ap.lineitems.display1.VendorGroup" Term="com.sap.vocabularies.UI.v1.FieldGroup">
 					<Record>
 						<PropertyValue Property="Label" String="Supplier"/>
@@ -872,28 +872,28 @@
 					</Record>
 				</Annotation>
 			</Annotations>
-			<Annotations Target="ZRTF_OD_VENDOR_LINE_ITEM_SRV.Item/AccountingDocument" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+			<Annotations Target="ZRTF_OD_COPY_VLI_SRV.Item/AccountingDocument" xmlns="http://docs.oasis-open.org/odata/ns/edm">
 				<Annotation String="AccountingDocument" Term="com.sap.vocabularies.Common.v1.SemanticObject"/>
 			</Annotations>
-			<Annotations Target="ZRTF_OD_VENDOR_LINE_ITEM_SRV.Item/CostCenter" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+			<Annotations Target="ZRTF_OD_COPY_VLI_SRV.Item/CostCenter" xmlns="http://docs.oasis-open.org/odata/ns/edm">
 				<Annotation String="CostCenter" Term="com.sap.vocabularies.Common.v1.SemanticObject"/>
 			</Annotations>
-			<Annotations Target="ZRTF_OD_VENDOR_LINE_ITEM_SRV.Item/Supplier" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+			<Annotations Target="ZRTF_OD_COPY_VLI_SRV.Item/Supplier" xmlns="http://docs.oasis-open.org/odata/ns/edm">
 				<Annotation String="Supplier" Term="com.sap.vocabularies.Common.v1.SemanticObject"/>
 			</Annotations>
-			<Annotations Target="ZRTF_OD_VENDOR_LINE_ITEM_SRV.Item/FixedAsset" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+			<Annotations Target="ZRTF_OD_COPY_VLI_SRV.Item/FixedAsset" xmlns="http://docs.oasis-open.org/odata/ns/edm">
 				<Annotation String="FixedAsset" Term="com.sap.vocabularies.Common.v1.SemanticObject"/>
 			</Annotations>
-			<Annotations Target="ZRTF_OD_VENDOR_LINE_ITEM_SRV.Item/GLAccount" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+			<Annotations Target="ZRTF_OD_COPY_VLI_SRV.Item/GLAccount" xmlns="http://docs.oasis-open.org/odata/ns/edm">
 				<Annotation String="GLAccount" Term="com.sap.vocabularies.Common.v1.SemanticObject"/>
 			</Annotations>
-			<Annotations Target="ZRTF_OD_VENDOR_LINE_ITEM_SRV.Item/HouseBank" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+			<Annotations Target="ZRTF_OD_COPY_VLI_SRV.Item/HouseBank" xmlns="http://docs.oasis-open.org/odata/ns/edm">
 				<Annotation String="HouseBank" Term="com.sap.vocabularies.Common.v1.SemanticObject"/>
 			</Annotations>
-			<Annotations Target="ZRTF_OD_VENDOR_LINE_ITEM_SRV.Item/InternalOrder" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+			<Annotations Target="ZRTF_OD_COPY_VLI_SRV.Item/InternalOrder" xmlns="http://docs.oasis-open.org/odata/ns/edm">
 				<Annotation String="InternalOrder" Term="com.sap.vocabularies.Common.v1.SemanticObject"/>
 			</Annotations>
-			<Annotations Target="ZRTF_OD_VENDOR_LINE_ITEM_SRV.Item/ProfitCenter" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+			<Annotations Target="ZRTF_OD_COPY_VLI_SRV.Item/ProfitCenter" xmlns="http://docs.oasis-open.org/odata/ns/edm">
 				<Annotation String="ProfitCenter" Term="com.sap.vocabularies.Common.v1.SemanticObject"/>
 			</Annotations>
 			<atom:link href="http://localhost/DUMMY_SERVICE/$metadata" rel="self" xmlns:atom="http://www.w3.org/2005/Atom"/>
