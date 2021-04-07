@@ -16,13 +16,13 @@
 	</skills>
 	<services>
 		<service>
-			<name>ZRTF_OD_COPY_VLI_SRV</name>
-			<serviceUri>/sap/opu/odata/sap/ZRTF_OD_COPY_VLI_SRV</serviceUri>
+			<name>ZRTF_OD_VENDOR_LINE_ITEM_SRV</name>
+			<serviceUri>/sap/opu/odata/sap/ZRTF_OD_VENDOR_LINE_ITEM_SRV</serviceUri>
 			<entityTypes>
 				<entityType>
 					<name>Item</name>
 					<label>
-						<![CDATA[{i18n>ENTITY_ZRTF_OD_COPY_VLI_SRV_Item_1_LABEL}]]>
+						<![CDATA[{i18n>ENTITY_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_1_LABEL}]]>
 					</label>
 					<visualization>
 						<header>
@@ -40,10 +40,10 @@
 					</visualization>
 					<synonyms>
 						<synonym>
-							<![CDATA[{i18n>ENTITY_ZRTF_OD_COPY_VLI_SRV_Item_SYNONYM_1}]]>
+							<![CDATA[{i18n>ENTITY_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_SYNONYM_1}]]>
 						</synonym>
 						<synonym>
-							<![CDATA[{i18n>ENTITY_ZRTF_OD_COPY_VLI_SRV_Item_SYNONYM_2}]]>
+							<![CDATA[{i18n>ENTITY_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_SYNONYM_2}]]>
 						</synonym>
 					</synonyms>
 					<semanticObject>Supplier</semanticObject>
@@ -52,7 +52,7 @@
 						<property>
 							<name>AmountInCompanyCodeCurrency</name>
 							<label>
-								<![CDATA[{i18n>PROPERTY_ZRTF_OD_COPY_VLI_SRV_Item_AmountInCompanyCodeCurrency_LABEL}]]>
+								<![CDATA[{i18n>PROPERTY_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_AmountInCompanyCodeCurrency_LABEL}]]>
 							</label>
 						</property>
 						<property>
@@ -62,16 +62,16 @@
 							<name>ClearingAccountingDocument</name>
 							<synonyms>
 								<synonym>
-									<![CDATA[{i18n>PROPERTY_ZRTF_OD_COPY_VLI_SRV_Item_ClearingAccountingDocument_SYNONYM_1}]]>
+									<![CDATA[{i18n>PROPERTY_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_ClearingAccountingDocument_SYNONYM_1}]]>
 								</synonym>
 								<synonym>
-									<![CDATA[{i18n>PROPERTY_ZRTF_OD_COPY_VLI_SRV_Item_ClearingAccountingDocument_SYNONYM_2}]]>
+									<![CDATA[{i18n>PROPERTY_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_ClearingAccountingDocument_SYNONYM_2}]]>
 								</synonym>
 								<synonym>
-									<![CDATA[{i18n>PROPERTY_ZRTF_OD_COPY_VLI_SRV_Item_ClearingAccountingDocument_SYNONYM_3}]]>
+									<![CDATA[{i18n>PROPERTY_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_ClearingAccountingDocument_SYNONYM_3}]]>
 								</synonym>
 								<synonym>
-									<![CDATA[{i18n>PROPERTY_ZRTF_OD_COPY_VLI_SRV_Item_ClearingAccountingDocument_SYNONYM_4}]]>
+									<![CDATA[{i18n>PROPERTY_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_ClearingAccountingDocument_SYNONYM_4}]]>
 								</synonym>
 							</synonyms>
 						</property>
@@ -79,7 +79,7 @@
 							<name>ClearingStatus</name>
 							<synonyms>
 								<synonym>
-									<![CDATA[{i18n>PROPERTY_ZRTF_OD_COPY_VLI_SRV_Item_ClearingStatus_SYNONYM_1}]]>
+									<![CDATA[{i18n>PROPERTY_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_ClearingStatus_SYNONYM_1}]]>
 								</synonym>
 							</synonyms>
 							<valueLookup>
@@ -110,7 +110,7 @@
 							<name>CompanyCode</name>
 							<synonyms>
 								<synonym>
-									<![CDATA[{i18n>PROPERTY_ZRTF_OD_COPY_VLI_SRV_Item_CompanyCode_SYNONYM_1}]]>
+									<![CDATA[{i18n>PROPERTY_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_CompanyCode_SYNONYM_1}]]>
 								</synonym>
 							</synonyms>
 							<valueLookup>
@@ -141,7 +141,7 @@
 							<name>CompanyName</name>
 							<synonyms>
 								<synonym>
-									<![CDATA[{i18n>PROPERTY_ZRTF_OD_COPY_VLI_SRV_Item_CompanyName_SYNONYM_1}]]>
+									<![CDATA[{i18n>PROPERTY_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_CompanyName_SYNONYM_1}]]>
 								</synonym>
 							</synonyms>
 						</property>
@@ -155,7 +155,7 @@
 							<name>AccountingDocument</name>
 							<synonyms>
 								<synonym>
-									<![CDATA[{i18n>PROPERTY_ZRTF_OD_COPY_VLI_SRV_Item_AccountingDocument_SYNONYM_1}]]>
+									<![CDATA[{i18n>PROPERTY_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_AccountingDocument_SYNONYM_1}]]>
 								</synonym>
 							</synonyms>
 						</property>
@@ -163,7 +163,7 @@
 							<name>AccountingDocumentType</name>
 							<synonyms>
 								<synonym>
-									<![CDATA[{i18n>PROPERTY_ZRTF_OD_COPY_VLI_SRV_Item_AccountingDocumentType_SYNONYM_1}]]>
+									<![CDATA[{i18n>PROPERTY_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_AccountingDocumentType_SYNONYM_1}]]>
 								</synonym>
 							</synonyms>
 							<valueLookup>
@@ -193,7 +193,7 @@
 							<name>KeyDate</name>
 							<synonyms>
 								<synonym>
-									<![CDATA[{i18n>PROPERTY_ZRTF_OD_COPY_VLI_SRV_Item_KeyDate_SYNONYM_1}]]>
+									<![CDATA[{i18n>PROPERTY_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_KeyDate_SYNONYM_1}]]>
 								</synonym>
 							</synonyms>
 						</property>
@@ -204,13 +204,13 @@
 							<name>DocumentReferenceID</name>
 							<synonyms>
 								<synonym>
-									<![CDATA[{i18n>PROPERTY_ZRTF_OD_COPY_VLI_SRV_Item_DocumentReferenceID_SYNONYM_1}]]>
+									<![CDATA[{i18n>PROPERTY_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_DocumentReferenceID_SYNONYM_1}]]>
 								</synonym>
 								<synonym>
-									<![CDATA[{i18n>PROPERTY_ZRTF_OD_COPY_VLI_SRV_Item_DocumentReferenceID_SYNONYM_2}]]>
+									<![CDATA[{i18n>PROPERTY_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_DocumentReferenceID_SYNONYM_2}]]>
 								</synonym>
 								<synonym>
-									<![CDATA[{i18n>PROPERTY_ZRTF_OD_COPY_VLI_SRV_Item_DocumentReferenceID_SYNONYM_3}]]>
+									<![CDATA[{i18n>PROPERTY_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_DocumentReferenceID_SYNONYM_3}]]>
 								</synonym>
 							</synonyms>
 						</property>
@@ -218,16 +218,16 @@
 							<name>Supplier</name>
 							<synonyms>
 								<synonym>
-									<![CDATA[{i18n>PROPERTY_ZRTF_OD_COPY_VLI_SRV_Item_Supplier_SYNONYM_1}]]>
+									<![CDATA[{i18n>PROPERTY_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_Supplier_SYNONYM_1}]]>
 								</synonym>
 								<synonym>
-									<![CDATA[{i18n>PROPERTY_ZRTF_OD_COPY_VLI_SRV_Item_Supplier_SYNONYM_2}]]>
+									<![CDATA[{i18n>PROPERTY_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_Supplier_SYNONYM_2}]]>
 								</synonym>
 								<synonym>
-									<![CDATA[{i18n>PROPERTY_ZRTF_OD_COPY_VLI_SRV_Item_Supplier_SYNONYM_3}]]>
+									<![CDATA[{i18n>PROPERTY_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_Supplier_SYNONYM_3}]]>
 								</synonym>
 								<synonym>
-									<![CDATA[{i18n>PROPERTY_ZRTF_OD_COPY_VLI_SRV_Item_Supplier_SYNONYM_4}]]>
+									<![CDATA[{i18n>PROPERTY_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_Supplier_SYNONYM_4}]]>
 								</synonym>
 							</synonyms>
 							<valueLookup>
@@ -251,7 +251,7 @@
 							<name>SupplierName</name>
 							<synonyms>
 								<synonym>
-									<![CDATA[{i18n>PROPERTY_ZRTF_OD_COPY_VLI_SRV_Item_SupplierName_SYNONYM_1}]]>
+									<![CDATA[{i18n>PROPERTY_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_SupplierName_SYNONYM_1}]]>
 								</synonym>
 							</synonyms>
 						</property>
@@ -309,7 +309,7 @@
 							<name>AccountingDocCreatedByUser</name>
 							<synonyms>
 								<synonym>
-									<![CDATA[{i18n>PROPERTY_ZRTF_OD_COPY_VLI_SRV_Item_AccountingDocCreatedByUser_SYNONYM_1}]]>
+									<![CDATA[{i18n>PROPERTY_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_AccountingDocCreatedByUser_SYNONYM_1}]]>
 								</synonym>
 							</synonyms>
 						</property>
@@ -419,12 +419,12 @@
 		<intent>
 			<name>_f8d844b1-d4b8-45f8-8791-75fd74c3387</name>
 			<label>
-				<![CDATA[{i18n>INTENT_READ_ZRTF_OD_COPY_VLI_SRV_Item_LABEL}]]>
+				<![CDATA[{i18n>INTENT_READ_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_LABEL}]]>
 			</label>
 			<visualization>DEFAULT</visualization>
 			<skill>_91825f1c-f0cc-4ce0-8515-a78d8c0e0ac6</skill>
 			<type>READ</type>
-			<service>ZRTF_OD_COPY_VLI_SRV</service>
+			<service>ZRTF_OD_VENDOR_LINE_ITEM_SRV</service>
 			<entityType>Item</entityType>
 			<properties>
 				<property>
@@ -584,18 +584,18 @@
 			<semanticAction>manageLineItems</semanticAction>
 			<hintSentences>
 				<hintSentence>
-					<![CDATA[{i18n>INTENT_READ_ZRTF_OD_COPY_VLI_SRV_Item_HS_1}]]>
+					<![CDATA[{i18n>INTENT_READ_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_HS_1}]]>
 				</hintSentence>
 			</hintSentences>
 		</intent>
 		<intent>
 			<name>_a8011858-b859-457b-a591-c851c6dccd8c</name>
 			<label>
-				<![CDATA[{i18n>INTENT_QUERY_ZRTF_OD_COPY_VLI_SRV_Item_LABEL}]]>
+				<![CDATA[{i18n>INTENT_QUERY_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_LABEL}]]>
 			</label>
 			<skill>_91825f1c-f0cc-4ce0-8515-a78d8c0e0ac6</skill>
 			<type>QUERY</type>
-			<service>ZRTF_OD_COPY_VLI_SRV</service>
+			<service>ZRTF_OD_VENDOR_LINE_ITEM_SRV</service>
 			<entityType>Item</entityType>
 			<properties>
 				<property>
@@ -755,31 +755,31 @@
 			<semanticAction>manageLineItems</semanticAction>
 			<hintSentences>
 				<hintSentence>
-					<![CDATA[{i18n>INTENT_QUERY_ZRTF_OD_COPY_VLI_SRV_Item_HS_1}]]>
+					<![CDATA[{i18n>INTENT_QUERY_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_HS_1}]]>
 				</hintSentence>
 				<hintSentence>
-					<![CDATA[{i18n>INTENT_QUERY_ZRTF_OD_COPY_VLI_SRV_Item_HS_2}]]>
+					<![CDATA[{i18n>INTENT_QUERY_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_HS_2}]]>
 				</hintSentence>
 				<hintSentence>
-					<![CDATA[{i18n>INTENT_QUERY_ZRTF_OD_COPY_VLI_SRV_Item_HS_3}]]>
+					<![CDATA[{i18n>INTENT_QUERY_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_HS_3}]]>
 				</hintSentence>
 				<hintSentence>
-					<![CDATA[{i18n>INTENT_QUERY_ZRTF_OD_COPY_VLI_SRV_Item_HS_4}]]>
+					<![CDATA[{i18n>INTENT_QUERY_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_HS_4}]]>
 				</hintSentence>
 				<hintSentence>
-					<![CDATA[{i18n>INTENT_QUERY_ZRTF_OD_COPY_VLI_SRV_Item_HS_5}]]>
+					<![CDATA[{i18n>INTENT_QUERY_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_HS_5}]]>
 				</hintSentence>
 				<hintSentence>
-					<![CDATA[{i18n>INTENT_QUERY_ZRTF_OD_COPY_VLI_SRV_Item_HS_6}]]>
+					<![CDATA[{i18n>INTENT_QUERY_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_HS_6}]]>
 				</hintSentence>
 				<hintSentence>
-					<![CDATA[{i18n>INTENT_QUERY_ZRTF_OD_COPY_VLI_SRV_Item_HS_7}]]>
+					<![CDATA[{i18n>INTENT_QUERY_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_HS_7}]]>
 				</hintSentence>
 				<hintSentence>
-					<![CDATA[{i18n>INTENT_QUERY_ZRTF_OD_COPY_VLI_SRV_Item_HS_8}]]>
+					<![CDATA[{i18n>INTENT_QUERY_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_HS_8}]]>
 				</hintSentence>
 				<hintSentence>
-					<![CDATA[{i18n>INTENT_QUERY_ZRTF_OD_COPY_VLI_SRV_Item_HS_9}]]>
+					<![CDATA[{i18n>INTENT_QUERY_ZRTF_OD_VENDOR_LINE_ITEM_SRV_Item_HS_9}]]>
 				</hintSentence>
 			</hintSentences>
 		</intent>

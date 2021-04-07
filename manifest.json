@@ -35,8 +35,8 @@
             }
         },
         "dataSources": {
-            "ZRTF_OD_COPY_VLI_SRV": {
-                "uri": "/sap/opu/odata/sap/ZRTF_OD_COPY_VLI_SRV",
+            "ZRTF_OD_VENDOR_LINE_ITEM_SRV": {
+                "uri": "/sap/opu/odata/sap/ZRTF_OD_VENDOR_LINE_ITEM_SRV",
                 "type": "OData",
                 "settings": {
                     "odataVersion": "2.0",
@@ -99,7 +99,7 @@
         },
         "config": {
             "fullWidth": true,
-            "serviceUrl": "/sap/opu/odata/sap/ZRTF_OD_COPY_VLI_SRV",
+            "serviceUrl": "/sap/opu/odata/sap/ZRTF_OD_VENDOR_LINE_ITEM_SRV",
             "sapFiori2Adaptation": true
         },
         "models": {
@@ -116,7 +116,7 @@
                 }
             },
             "": {
-                "dataSource": "ZRTF_OD_COPY_VLI_SRV",
+                "dataSource": "ZRTF_OD_VENDOR_LINE_ITEM_SRV",
                 "type": "sap.ui.model.odata.v2.ODataModel",
                 "settings": {
                     "metadataUrlParams": {
@@ -192,7 +192,7 @@
                 "copilotIntent": {
                     "uri": "copilot/intent.xml",
                     "dataSources": [
-                        "ZRTF_OD_COPY_VLI_SRV"
+                        "ZRTF_OD_VENDOR_LINE_ITEM_SRV"
                     ],
                     "i18n": "i18n/copilot/i18n.properties"
                 }
